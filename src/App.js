@@ -1,24 +1,42 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {
+  features,
+  firstBuyTemp,
+  ourTemplate,
+  secondBuyTemp,
+} from "./data/data";
+import "./App.css";
+import FirstNavbar from "./components/FirstNavbar";
+import { HomeCreative } from "./components/HomeCreative";
+import { OurTemplates } from "./components/OurTemplates";
+import { Route, Routes } from "react-router-dom";
+import { Features } from "./components/Features";
+import { BuyTemplate } from "./components/BuyTemplate";
+import { StartBusiness } from "./components/StartBusiness";
+import { Footer } from "./components/Footer";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <Routes>
+        <Route
+          path='/'
+          element={
+            <>
+              <FirstNavbar />
+              <HomeCreative />
+              <OurTemplates ourTemplate={ourTemplate} />
+              <Features features={features} />
+              <BuyTemplate
+                firstBuyTemp={firstBuyTemp}
+                secondBuyTemp={secondBuyTemp}
+              />
+              <StartBusiness />
+              <Footer />
+            </>
+          }
+        />
+      </Routes>
     </div>
   );
 }

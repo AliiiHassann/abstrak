@@ -1,0 +1,152 @@
+.section-buy {
+  padding: 140px 0 110px;
+  position: relative;
+  z-index: 1;
+}
+@media (max-width: 991px) {
+  .section-buy {
+    padding: 80px 0 50px;
+  }
+}
+@media (max-width: 1199px) {
+  .section-buy {
+    padding: 100px 0 70px;
+  }
+}
+.buy-temp-h2 {
+  font-size: 65px;
+  font-weight: 400;
+  text-align: start;
+  width: 100%;
+  margin-bottom: 60px;
+  line-height: 1.2;
+}
+@media (max-width: 1199px) {
+  .buy-temp-h2 {
+    font-size: 55px;
+  }
+}
+@media (max-width: 991px) {
+  .buy-temp-h2 {
+    font-size: 50px;
+  }
+}
+.temp-p {
+  font-size: 20px;
+  width: 100%;
+  opacity: 0.8;
+}
+
+.buy-temp-box {
+  background-color: white;
+  padding: 35px;
+  border: 1px solid #e3e6e9;
+  margin-bottom: 80px;
+  border-radius: 30px;
+}
+@media (max-width: 991px) {
+  .buy-temp-box {
+    margin-bottom: 40px;
+  }
+}
+.buy-temp-heading {
+  display: flex;
+}
+.buy-temp-pic {
+  width: 62px;
+  height: 62px;
+  background-color: #ffdc60;
+  margin-right: 20px;
+  border-radius: 50%;
+  line-height: 60px;
+  margin-bottom: 20px;
+}
+.buy-temp-h5 {
+  flex: 1 1;
+  font-size: 22px;
+}
+.buy-temp-p {
+  color: var(--dark-color);
+}
+.buy-temp-a {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #e3e6e9;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+  z-index: 1;
+  height: 100%;
+}
+.temp-inner {
+  display: flex;
+  padding: 30px 35px;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: all 0.3s ease-in-out;
+  height: 100%;
+  position: relative;
+  z-index: 1;
+}
+.temp-text-box {
+  display: flex;
+}
+.temp-title-h4 {
+  flex: 1 1;
+  font-weight: 500;
+  font-size: 30px;
+  margin-bottom: 18px;
+  letter-spacing: -0.045em;
+}
+.temp-title-img {
+  text-align: center;
+  height: 62px;
+  width: 62px;
+  line-height: 60px;
+  background-color: #ecf2f6;
+  border-radius: 50%;
+  margin-left: 20px;
+}
+.temp-btn {
+  transition: all 0.3s ease-in-out;
+  display: inline-block;
+  height: 46px;
+  width: 68px;
+  font-size: 12px;
+  color: white;
+  border: none;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100px;
+  background-color: #c75c6f;
+}
+.buy-temp-a:hover .temp-btn {
+  background-color: var(--main-color);
+}
+.temp-title-p {
+  color: var(--dark-color);
+}
+.buy-temp-a:hover {
+  box-shadow: 0 50px 50px -24px rgb(153 161 170 / 30%);
+  cursor: pointer;
+}
+.buy-temp-shape1 {
+  position: absolute;
+  z-index: -1;
+  bottom: -1px;
+  right: 0;
+}
+.buy-temp-shape2 {
+  position: absolute;
+  z-index: -1;
+  bottom: -1px;
+  right: 0;
+}
+.line-shape {
+  position: absolute;
+  top: 90px;
+  left: 0;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: -1;
+}
