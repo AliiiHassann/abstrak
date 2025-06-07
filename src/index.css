@@ -6,9 +6,22 @@
   --main-color: #5956e9;
   --dark-color: #525260;
   --grey-color: #ecf2f6;
+  --text-primary: #2a2a3c;
+
+}
+[data-theme="dark"] {
+  --main-color: #7d7aff;
+  --dark-color: #b8b8d1;
+  --grey-color: #1a1a2e;
+  --text-primary: #f0f0f5;
 }
 body {
   font-family: "Montserrat", sans-serif;
   font-family: "Nunito Sans", sans-serif;
   font-family: "Open Sans", sans-serif;
+  color: var(--text-primary) !important;
+}
+
+h1, h2, h3 {
+  color: var(--text-primary) !important;
 }

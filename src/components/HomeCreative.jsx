@@ -18,11 +18,11 @@ export const HomeCreative = () => {
     type: "loop",
     rewind: true,
     pagination: true,
-    speed: "800",
+    speed: "1000",
     autoplay: "playing",
     arrows: true,
     gap: "2rem",
-    interval: 2000,
+    interval: 4000,
     classes: {
       pagination: "splide__pagination special-pagination",
     },
@@ -43,7 +43,7 @@ export const HomeCreative = () => {
     const doSomething = () => {
       return (
         count === 5 ? count : incrementCount(),
-        inner === 30 ? inner : incrementInner(),
+        inner === 35 ? inner : incrementInner(),
         elements === 30 ? elements : incrementElement()
       );
     };

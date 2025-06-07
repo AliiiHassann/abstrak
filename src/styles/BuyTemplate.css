@@ -65,9 +65,7 @@
   flex: 1 1;
   font-size: 22px;
 }
-.buy-temp-p {
-  color: var(--dark-color);
-}
+
 .buy-temp-a {
   display: block;
   background-color: #fff;
@@ -122,9 +120,6 @@
 }
 .buy-temp-a:hover .temp-btn {
   background-color: var(--main-color);
-}
-.temp-title-p {
-  color: var(--dark-color);
 }
 .buy-temp-a:hover {
   box-shadow: 0 50px 50px -24px rgb(153 161 170 / 30%);

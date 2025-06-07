@@ -11,7 +11,7 @@ import bubble7 from "../assets/bubble-16.png";
 export const StartBusiness = () => {
   return (
     <>
-      <div className='section-business overflow-hidden '>
+      <div className='section-business overflow-hidden' id='startBusiness'>
         <Container>
           <div className=''>
             <div className='business-box text-white'>

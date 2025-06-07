@@ -11,6 +11,11 @@
   right: 0;
   z-index: -1;
 }
+[data-theme="dark"] .creative-home::before {
+  background: linear-gradient(0deg, rgba(110, 20, 60, 0.7) 10%, #121212);
+-webkit-clip-path: circle(103% at 50% -52%);
+clip-path: circle(103% at 50% -52%);
+}
 @media (max-width: 1599px) and (min-width: 1200px) {
   .creative-home::before {
     clip-path: circle(120% at 50% -52%);

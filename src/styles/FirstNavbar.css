@@ -28,7 +28,6 @@
 }
 @media (max-width: 991px) {
   .nav-collapsed-texts {
-    background-color: white;
     text-align: start;
     align-items: flex-start;
   }
@@ -57,4 +56,11 @@
 .link-nav:hover::before {
   width: 100%;
   opacity: 1;
+}
+[data-theme="dark"] .navbar-expand-lg .navbar-nav .nav-link,
+[data-theme="dark"] .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: var(--text-primary) !important;
+}
+[data-theme="dark"] .navbar {
+  background-color: var(--grey-color) !important;
 }

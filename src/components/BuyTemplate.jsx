@@ -30,7 +30,7 @@ export const BuyTemplate = ({
             {items.map((item, i) => {
               return (
                 <div className='col-xl-4 col-lg-6' key={i}>
-                  <div className='buy-temp-box'>
+                  <div className='buy-temp-box text-black'>
                     <div className='buy-temp-heading'>
                       <div className='buy-temp-pic'>
                         <img src={item.img} />

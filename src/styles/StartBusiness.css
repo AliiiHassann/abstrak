@@ -27,6 +27,7 @@
   margin-bottom: 20px;
   font-size: 80px;
   width: 100%;
+  color: white !important;
 }
 @media (max-width: 991px) {
   .business-box h2 {
@@ -71,16 +72,23 @@
     drop-shadow(0 48px 48px rgba(0, 0, 0, 0.12));
   box-shadow: none;
   border-radius: 20px;
-  font-size: 16px;
-  font-weight: 500;
-  letter-spacing: -0.04em;
-  padding: 18px 55px;
   height: auto;
   text-align: center;
   transition: all 0.3s ease-in-out;
   position: relative;
   z-index: 1;
   background-color: white;
+}
+[data-theme="dark"] .business-box .buy-now-business {
+  color: #a2a0ff !important;
+  padding: 24px 80px;
+  -webkit-filter: 
+  drop-shadow(0 14px 20px rgba(125, 122, 255, 0.3))
+  drop-shadow(0 48px 48px rgba(0, 0, 0, 0.2));
+  filter: 
+  drop-shadow(0 14px 20px rgba(125, 122, 255, 0.3)) 
+  drop-shadow(0 48px 48px rgba(0, 0, 0, 0.2));
+  border-radius: 20px;
 }
 .business-box .buy-now-business:hover {
   background-color: #ffdc60;

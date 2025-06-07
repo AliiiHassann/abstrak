@@ -30,7 +30,7 @@ export const Features = ({ features: { items } }) => {
                     <div className='feature-icon'>
                       <img src={item.img} alt='Feature' />
                     </div>
-                    <div className='text-white feature-text'>
+                    <div className=' feature-text'>
                       <h5 className='feature-box-h5'>
                         {item.h5}
                         <br />

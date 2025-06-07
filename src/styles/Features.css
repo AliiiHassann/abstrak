@@ -1,5 +1,4 @@
 .section-features {
-  background-color: #27272e;
   padding: 140px 0 110px;
   position: relative;
   z-index: 1;
@@ -18,7 +17,6 @@
   font-size: 60px;
   font-weight: 400;
   text-align: start;
-  color: white;
   width: 100%;
   margin-bottom: 35px;
   line-height: 1.2;
@@ -35,7 +33,6 @@
 }
 .feature-p {
   font-size: 20px;
-  color: white;
   width: 100%;
   opacity: 0.6;
 }
@@ -68,16 +65,33 @@
   right: 0;
   z-index: -1;
   transition: 0.3s all ease-in-out;
-  background: linear-gradient(180deg, #27272e, #303035);
   border: 1px solid;
+  background: linear-gradient(180deg, #f8f9fa, #ffffff);
   border-image-source: linear-gradient(
-    0deg,
-    #27272e 64.45%,
-    rgba(74, 75, 86, 0.72)
-  );
+  0deg,
+  #f8f9fa 64.45%,
+  rgba(220, 220, 230, 0.72)
+);
   border-radius: 30px;
   opacity: 0;
   visibility: hidden;
+  box-shadow:
+  0 0 15px rgba(125, 122, 255, 0.15),
+  inset 0 1px 0 rgba(220, 220, 255, 0.3);
+}
+[data-theme="dark"] .feature-box::after {
+border: 1px solid rgba(125, 122, 255, 0.2);
+background: 
+  linear-gradient(180deg, #0c0b1f 0%, #171635 100%),
+  radial-gradient(circle at 50% 0%, rgba(125, 122, 255, 0.1) 0%, transparent 70%);
+border-image-source: linear-gradient(
+  0deg,
+  #343258 50%,
+  rgba(125, 122, 255, 0.4) 100%
+);
+box-shadow:
+  0 0 15px rgba(125, 122, 255, 0.1),
+  inset 0 1px 0 rgba(255, 255, 255, 0.05);
 }
 .feature-box:hover::after {
   opacity: 1;
@@ -95,7 +109,6 @@
 .feature-box-p {
   transition: all 0.3s ease-in-out;
   opacity: 0.6;
-  color: #ecf2f6 !important;
 }
 .feature-box:hover .feature-box-p {
   opacity: 1;
