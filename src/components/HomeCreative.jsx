@@ -99,37 +99,37 @@ export const HomeCreative = () => {
         <Splide options={splideOptions} className='pt-4'>
           <SplideSlide>
             <div className='demo-div'>
-              <a href='#' className='demo-div'>
-                <img className='demo-creative' src={demoSlide1} alt='Image 1' />
-              </a>
+              <div className='demo-div'>
+                <img className='demo-creative' src={demoSlide1} alt='No' />
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className='demo-div'>
-              <a href='#' className='demo-div'>
-                <img className='demo-creative' src={demoSlide2} alt='Image 2' />
-              </a>
+              <div className='demo-div'>
+                <img className='demo-creative' src={demoSlide2} alt='No' />
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className='demo-div'>
-              <a href='#' className='demo-div'>
-                <img className='demo-creative' src={demoSlide3} alt='Image 2' />
-              </a>
+              <div className='demo-div'>
+                <img className='demo-creative' src={demoSlide3} alt='No' />
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className='demo-div'>
-              <a href='#' className='demo-div'>
-                <img className='demo-creative' src={demoSlide4} alt='Image 2' />
-              </a>
+              <div className='demo-div'>
+                <img className='demo-creative' src={demoSlide4} alt='No' />
+              </div>
             </div>
           </SplideSlide>
           <SplideSlide>
             <div className='demo-div'>
-              <a href='#' className='demo-div'>
-                <img className='demo-creative' src={demoSlide5} alt='Image 2' />
-              </a>
+              <div className='demo-div'>
+                <img className='demo-creative' src={demoSlide5} alt='No' />
+              </div>
             </div>
           </SplideSlide>
         </Splide>

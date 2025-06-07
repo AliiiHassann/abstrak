@@ -35,25 +35,25 @@ export const StartBusiness = () => {
         </Container>
         <ul className='list-unstyled'>
           <li className='business-shape1'>
-            <img src={bubble1} />
+            <img src={bubble1} alt="No" />
           </li>
           <li className='business-shape2'>
-            <img src={bubble2} />
+            <img src={bubble2} alt="No" />
           </li>
           <li className='business-shape3'>
-            <img src={bubble3} />
+            <img src={bubble3} alt="No" />
           </li>
           <li className='business-shape4'>
-            <img src={bubble4} />
+            <img src={bubble4} alt="No" />
           </li>
           <li className='business-shape5'>
-            <img src={bubble5} />
+            <img src={bubble5} alt="No" />
           </li>
           <li className='business-shape6'>
-            <img src={bubble6} />
+            <img src={bubble6} alt="No" />
           </li>
           <li className='business-shape7'>
-            <img src={bubble7} />
+            <img src={bubble7} alt="No" />
           </li>
         </ul>
       </div>

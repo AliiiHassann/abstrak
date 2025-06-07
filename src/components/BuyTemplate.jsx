@@ -33,7 +33,7 @@ export const BuyTemplate = ({
                   <div className='buy-temp-box text-black'>
                     <div className='buy-temp-heading'>
                       <div className='buy-temp-pic'>
-                        <img src={item.img} />
+                        <img src={item.img} alt="" />
                       </div>
                       <h5 className='buy-temp-h5 text-start'>
                         {item.h5}
@@ -92,7 +92,7 @@ export const BuyTemplate = ({
           </Row>
         </Container>
         <div className='line-shape'>
-          <img src={buyTempLine} />
+          <img src={buyTempLine} alt=""/>
         </div>
       </div>
     </>
